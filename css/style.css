@@ -21,6 +21,7 @@ body{
     margin: 0px auto;
     background-color: hsl(195, 95%, 8%);
 }
+/*header*/
 h1{
     font-size: 50px;
     font-family: 'Nerko One', cursive;
@@ -30,20 +31,43 @@ h1{
     padding-bottom: 25px;
     
 }
-.disposition-col .col{
-    float: left;
-    width: 25%;
+/*posizionamento carte*/
+.row{
+    margin-bottom: 20px;
 }
-.disposition-col .square{
+
+.col{
+    float: left;
+    width: calc(100% / 4);
+}
+
+.product{
     height: 300px;
-    width: calc(25% - 20px);
-    margin: 20px 10px;
     background-image: url(../img/pattern.png);
     background-size: cover;
     background-position: center;
-    padding-left: 5px;
+    background-repeat: no-repeat;
+    margin: 20px 10px;
+    width: calc(100% / 4) - 20px);
 }
 
-.disposition-col .cover{
-    
+
+.bicycle:hover{
+    background-image: url(../img/noun_Bicycle_3134821.png);
+    background-color: rgba(0,0,0, 0.3);
+}
+
+.tram:hover{
+    background-image: url(../img/noun_Tram_3134750.png);
+    background-color: rgba(0,0,0, 0.3);
+}
+
+.cruise:hover{
+    background-image: url(../img/noun_Cruise_Ship_3134824.png);
+    background-color: rgba(0,0,0, 0.3);
+}
+
+.submarine:hover{
+    background-image: url(../img/noun_Submarine_3134738.png);
+    background-color: rgba(0,0,0, 0.3);
 }
