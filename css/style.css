@@ -1,0 +1,49 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Clearfix*/
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*Generici*/
+body{
+    font-family: Arial,  sans-serif, Verdana;
+}
+.container{
+    max-width: 1300px;
+    margin: 0px auto;
+    background-color: hsl(195, 95%, 8%);
+}
+h1{
+    font-size: 50px;
+    font-family: 'Nerko One', cursive;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    
+}
+.disposition-col .col{
+    float: left;
+    width: 25%;
+}
+.disposition-col .square{
+    height: 300px;
+    width: calc(25% - 20px);
+    margin: 20px 10px;
+    background-image: url(../img/pattern.png);
+    background-size: cover;
+    background-position: center;
+    padding-left: 5px;
+}
+
+.disposition-col .cover{
+    
+}
